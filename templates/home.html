@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbo">
+    <h2> Control LED's </h2>
+</div>
+<form method="post" action="{{url_for('start')}}">
+    <button class="button_left" type="submit" name="btn" value="left">Left</button>
+    <button class="button_right" type="submit" name="btn" value="right" >Right</button>
+    <button class="button_down" type="submit" name="btn" value="down">Down</button>
+    <button class="button_up" type="submit" name="btn" value="up">Up  </button>
+</form>
+
+{% endblock %}
