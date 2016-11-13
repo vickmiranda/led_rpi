@@ -1,5 +1,6 @@
 The application uses flask to develop a web application framework
-The application is intended to be used to deploy the apps in an 
-embedded device.
+This application is only to demostrate the use of the web page to control
+IO pins on the RPI.
+
 
 
